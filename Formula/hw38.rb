@@ -1,4 +1,4 @@
-class hw38 < Formula
+class Hw38 < Formula
     include Language::Python::Virtualenv
   
     desc "Hello World with Python 3.8"
