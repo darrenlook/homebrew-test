@@ -6,7 +6,7 @@ class Hw37 < Formula
     url "https://darrenlook-homebrew-tap.s3-us-west-2.amazonaws.com/hw37.tar.gz"
     sha256 "df50b14d17ae14a9e81b57baf67814425df81ad25c308325e7e3171c70fc5b8a"
   
-    depends_on "python@3.7"
+    depends_on "python"
 
     def install
       virtualenv_install_with_resources
